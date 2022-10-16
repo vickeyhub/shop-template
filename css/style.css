@@ -184,3 +184,11 @@ footer ul li a {
     position: unset !important;
     display: none;
 }
+
+.ceopic
+{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
