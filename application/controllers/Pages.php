@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         public function index(){
             $this->load->view('front/layouts/header');
             $this->load->view('front/index');
+            $this->load->view('front/layouts/footer');
         }
     }
 ?>
