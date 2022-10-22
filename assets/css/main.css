@@ -1,0 +1,12 @@
+.image-upload-icon{
+    width:100px;
+    height:100px;
+    border:2px solid black;
+    cursor:pointer;
+}
+.image-upload-icon i{
+    font-size: 50px !important;
+}
+.hidden-area{
+    display: none; 
+}
