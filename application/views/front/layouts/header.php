@@ -26,13 +26,13 @@
     <header role="banner">
         <div class="site-header d-flex justify-content-between">
             <div class="logo">
-                <img src="images/logo.png" alt="">
+                <img src="<?= base_url('assets/images/home/logo.png'); ?>" alt="">
             </div>
             <div class="menu-items">
                 <ul class="my-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="service.html">service</a></li>
+                    <li><a href="<?= base_url(); ?>">Home</a></li>
+                    <li><a href="<?= base_url('about-us'); ?>">About</a></li>
+                    <li><a href="<?= base_url('services'); ?>">service</a></li>
                     <li><a href="contact_us.html">contact us</a></li>
                 </ul>
             </div>
