@@ -33,7 +33,7 @@
                     <li><a href="<?= base_url(); ?>">Home</a></li>
                     <li><a href="<?= base_url('about-us'); ?>">About</a></li>
                     <li><a href="<?= base_url('services'); ?>">service</a></li>
-                    <li><a href="contact_us.html">contact us</a></li>
+                    <li><a href="<?= base_url('contact-us'); ?>">contact us</a></li>
                 </ul>
             </div>
 
