@@ -1,81 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DELHI DESIGN STUDIO</title>
-    <link rel="icon" type="image/x-icon" href="images/logo.png">
-    <!-- icon link -->
-    <script src="https://kit.fontawesome.com/a49af7c9db.js" crossorigin="anonymous"></script>
-    <!-- bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- third part css libraries -->
-    <link rel="stylesheet" href="css/drawer.min.css">
-    <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
-</head>
-
-<body class="drawer drawer--right">
-    <div class="sub-header w-100 bg-dark">
-        <p class="text-white text-center text-uppercase inv-text py-2">DELHI DESIGN STUDIO</p>
-    </div>
-
-    <header role="banner">
-        <div class="site-header d-flex justify-content-between">
-            <div class="logo">
-                <img src="images/logo.png" alt="">
-            </div>
-            <div class="menu-items">
-                <ul class="my-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="service.html">service</a></li>
-                    <li><a href="contact_us.html">contact us</a></li>
-                </ul>
-            </div>
-
-            <div class="icon-menu">
-                <ul class="icon-nav">
-                    <li class="sm-hide"><a href="#"><span class="fas fa-user"></span></a></li>
-                    <li><a href="#"><span class="fa fa-search"></span></a></li>
-                    <button type="button" class="drawer-toggle drawer-hamburger">
-                        <span class="sr-only">toggle navigation</span>
-                        <span class="drawer-hamburger-icon"></span>
-                    </button>
-                    <li><a href="#"><span class="fa fa-cart-plus"></span></a></li>
-            </div>
-        </div>
-        <nav class="drawer-nav pt-2 pl-2" role="navigation">
-            <ul class="drawer-menu">
-                <li><a class="drawer-brand" href="#">
-                        <div class="logo">
-                            <img src="images/logo.png" alt="">
-                        </div>
-                    </a>
-                </li>
-                <li><a class="drawer-menu-item" href="index.html">Home</a></li>
-                <li><a class="drawer-menu-item" href="about.html">About</a></li>
-                <li><a class="drawer-menu-item" href="service.html">service</a></li>
-                <li><a class="drawer-menu-item" href="contact_us.html">contact us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main role="main">
+ <main role="main">
         <div class="main-slider-area">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/slider-1.jpg" class="d-block w-100">
+                        <img src="<?= base_url('assets/images/home/slider-1.jpg'); ?>" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/slider-2.jpg" class="d-block w-100">
+                        <img src="<?= base_url('assets/images/home/slider-2.jpg'); ?>" class="d-block w-100">
                     </div>
                     <div class="carousel-item">
-                        <img src="images/slider-3.jpg" class="d-block w-100">
+                        <img src="<?= base_url('assets/images/home/slider-3.jpg'); ?>" class="d-block w-100">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -99,14 +33,14 @@
         <div class="container-fluid">
             <div class="d-flex justify-content-evenly flex-wrap">
                 <div class="my-3 sm-flex">
-                    <img class="my-img" src="images/3_540x.png">
+                    <img class="my-img" src="<?= base_url('assets/images/home/3_540x.png'); ?>">
                     <h2 class="fw-light text-center mt-3">FURNITURE</h1>
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
                         </div>
                 </div>
                 <div class="my-3 sm-flex">
-                    <img class="my-img" src="images/21_540x.png">
+                    <img class="my-img" src="<?= base_url('assets/images/home/21_540x.png'); ?>">
                     <h2 class="fw-light text-center mt-3">LIGHTING</h1>
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
@@ -114,7 +48,7 @@
 
                 </div>
                 <div class="my-3 sm-flex">
-                    <img class="my-img" src="images/20_540x.png">
+                    <img class="my-img" src="<?= base_url('assets/images/home/20_540x.png'); ?>">
                     <h2 class="fw-light text-center mt-3">DINING</h1>
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
@@ -132,21 +66,21 @@
             
             </div>
         <div class="dininig-table-area">
-            <img src="images/dining-table.png" class="w-100">
+            <img src="<?= base_url('assets/images/home/dining-table.png'); ?>" class="w-100">
         </div>
 
         <hr class="mt-5 mb-5">
         <div class="container-fluid">
             <div class="d-flex justify-content-evenly flex-wrap">
                 <div class="my-3 sm-flex">
-                    <img class="my-img" src="images/couson.png">
+                    <img class="my-img" src="<?= base_url('assets/images/home/couson.png'); ?>">
                     <h2 class="fw-light text-center mt-3">CUSHIONS</h1>
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
                         </div>
                 </div>
                 <div class="my-3 sm-flex">
-                    <img class="my-img" src="images/flower-pot.png">
+                    <img class="my-img" src="<?= base_url('assets/images/home/flower-pot.png'); ?>">
                     <h2 class="fw-light text-center mt-3">HOME DECOR</h1>
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
@@ -154,7 +88,7 @@
 
                 </div>
                 <div class="my-3 sm-flex">
-                    <img class="my-img" src="images/bed.png">
+                    <img class="my-img" src="<?= base_url('assets/images/home/bed.png'); ?>">
                     <h2 class="fw-light text-center mt-3">BEDDING</h1>
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
@@ -167,14 +101,14 @@
         <div class="container-fluid py-5">
             <div class="row">
                 <div class="col-md-6 my-3">
-                    <img class="w-100" src="images/shop-the-look.png">
+                    <img class="w-100" src="<?= base_url('assets/images/home/shop-the-look.png'); ?>">
                     <h2 class="fw-light text-center mt-3">SHOP THE LOOK</h1>
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-outline-secondary btn-sm category-btn">EXPLORE</button>
                         </div>
                 </div>
                 <div class="col-md-6 my-3">
-                    <img class="w-100" src="images/tree-pot.png">
+                    <img class="w-100" src="<?= base_url('assets/images/home/tree-pot.png'); ?>">
                     <h2 class="fw-light text-center mt-3">SHOP BY SET</h1>
                         <div class="d-flex justify-content-center">
                             <button class="btn btn-outline-secondary btn-sm category-btn">EXPLORE</button>
@@ -186,7 +120,7 @@
         </div>
         <div class="hero-image-area">
             <div class="hero-image">
-                <img src="images/hero_background.webp" alt="" class="w-100">
+                <img src="<?= base_url('assets/images/home/hero_background.webp'); ?>" alt="" class="w-100">
             </div>
             <div class="hero-image-cover d-flex flex-column justify-content-center">
                 <p class="text-center visit-p">VISIT</p>
