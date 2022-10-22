@@ -28,5 +28,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $this->load->view('front/contact_us');
             $this->load->view('front/layouts/footer');
         }
+
+        public function our_products(){
+            $data['all_categories'] = $this->db->get('post_category')->result();
+            $this->load->view('front/layouts/header');
+            $this->load->view('front/our_products', $data);
+            $this->load->view('front/layouts/footer');
+        }
     }
 ?>

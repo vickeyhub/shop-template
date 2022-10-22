@@ -24,7 +24,7 @@
 						<div class="col-md-12 stretch-card grid-margin">
 							<div class="card">
 								<div class="card-body">
-                                    <?php echo form_open('Admin_controller/save_category'); ?>
+                                    <?php echo form_open_multipart('Admin_controller/save_category'); ?>
                                     <div class="form-group">
                                             <label for="category">Category Name</label>
                                             <?= form_input([
@@ -37,6 +37,18 @@
                                             ]); ?>
                                             <?php echo form_error('category_title'); ?>
                                     </div>
+									<div class="form-group">
+											<h3>Category Thumbnail</h3>
+											<label for="post_thumbnail"
+												class="image-upload-icon d-flex justify-content-center align-items-center"><i
+													class="ti-camera"></i></label>
+											<!-- hidden file uploading field -->
+											<input type="file" class="hidden-area" name="category_thumbnail"
+												id="post_thumbnail">
+
+											<img src="#" id="thumb_preview" class="img-fluid">
+											<span class="upload_error text-danger"></span>
+										</div>
                                     <button type="submit" class="btn btn-primary">Save Category</button>
                                     <?php echo form_close(); ?>
                                 </div>

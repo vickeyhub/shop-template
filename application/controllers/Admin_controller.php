@@ -20,14 +20,26 @@
         }
 
         public function save_category(){
-            $this->form_validation->set_rules('category_title', 'Category title', 'required');
+            // echo '<pre>'; print_r($_POST); die(__LINE__);
+            $config = [
+                'allowed_types' => 'jpg|png|jpeg|gif',
+                'upload_path' => './upload/categories/'
+            ];
+            // load the upload library
+            $this->load->library('upload', $config);
+
+            $this->form_validation->set_rules('category_title', 'Category title', 'required|is_unique[post_category.post_category_title]');
             $this->form_validation->set_error_delimiters('<small class="text-danger">', '</small>');
 
-            if($this->form_validation->run()) {
+            if($this->form_validation->run() && $this->upload->do_upload('category_thumbnail')) {
                 //its wroking fine
+                $file_data = $this->upload->data();
+                
+                $file_path = base_url("upload/categories/".$file_data['file_name']);
                 $data = [
                     'post_category_title' => $this->input->post('category_title'),
-                    'post_category_slug' => url_title($this->input->post('category_title'),'dash',true)
+                    'post_category_slug' => url_title($this->input->post('category_title'),'dash',true),
+                    'category_thumbnail' => $file_path,
                 ];
                 if($this->pm->save_category($data)){
                     return redirect('Admin_controller/show_all_cat');
@@ -36,13 +48,15 @@
                 // if its not working
                 $this->load->view('admin/include/header');
                 $this->load->view('admin/add_post_category');
+                $this->load->view('admin/include/footer');
+
             }
         }
 
         public function show_all_cat(){
             $this->load->library('pagination');
             $this->load->helper('custom_pagination');
-            $config = custom_pagination('Admin_controller/show_all_cat',2,$this->pm->get_rows('post_category'));
+            $config = custom_pagination('Admin_controller/show_all_cat',10,$this->pm->get_rows('post_category'));
 
             $this->pagination->initialize($config);
             
@@ -93,6 +107,10 @@
 
         public function delete_post_category(){
             $cat_id =  $this->input->post("cat_id");
+            $get_thumbnail_query = $this->db->where('post_category_id', $cat_id)->get('post_category')->row();
+                $final_file = trim($get_thumbnail_query->category_thumbnail, base_url()); 
+                unlink($final_file);
+            
             $query = $this->db->where('post_category_id', $cat_id)->delete('post_category');
 
             if($query == true){

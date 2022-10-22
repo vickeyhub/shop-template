@@ -18,6 +18,12 @@ header{
     letter-spacing: 1px;
     font-weight:500;
 }
+.light-grey{
+    color:#6d6d6d !important;
+}
+.font-12{
+    font-size: 12px !important;
+}
 
 .inv-text {
     font-weight: bold;
