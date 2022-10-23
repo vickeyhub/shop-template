@@ -95,7 +95,7 @@ class Admin_controller extends CI_Controller
         if (!empty($_FILES['category_thumbnail']['name'])) {
 
             $get_thumbnail_query = $this->db->where('post_category_id', $cat_id)->get('post_category')->row();
-            if($get_thumbnail_query){
+            if ($get_thumbnail_query) {
                 $final_file = trim($get_thumbnail_query->category_thumbnail, base_url());
                 unlink($final_file);
             }
@@ -178,7 +178,7 @@ class Admin_controller extends CI_Controller
     {
         $config = [
             'allowed_types' => 'jpg|png|jpeg|gif',
-            'upload_path' => './upload/'
+            'upload_path' => './upload/products/'
         ];
         // load the upload library
         $this->load->library('upload', $config);
@@ -195,7 +195,7 @@ class Admin_controller extends CI_Controller
             //if it is success
             $file_data = $this->upload->data();
 
-            $file_path = base_url("upload/" . $file_data['file_name']);
+            $file_path = base_url("upload/products/" . $file_data['file_name']);
             $data = [
                 'post_title'            => $this->input->post('post_title'),
                 'post_slug_url'         => url_title($this->input->post('post_title'), 'dash', true),
@@ -253,6 +253,10 @@ class Admin_controller extends CI_Controller
     {
         $where = $this->db->where('post_id', $id);
         $get = $where->get('posts')->row_array();
+        if ($get) {
+            $final_file = trim($get['category_thumbnail'], base_url());
+            unlink($final_file);
+        }
         if ($get['post_thumbnail'] != '') {
             unlink(str_replace(base_url(), "", $get['post_thumbnail']));
         }

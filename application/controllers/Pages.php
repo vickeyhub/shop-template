@@ -35,5 +35,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $this->load->view('front/our_products', $data);
             $this->load->view('front/layouts/footer');
         }
+
+        public function product(){
+            $slug = $this->uri->segment(2);
+            $data = [
+                'category' => $this->db->where(['post_category.post_category_slug'=> $slug])->get('post_category')->row(),
+                'posts' => $this->db->where(['post_category_slug' => $slug])
+                ->join('post_category', 'post_category.post_category_id = posts.post_category')
+                ->get('posts')->result()
+            ];
+            $this->load->view('front/layouts/header');
+            $this->load->view('front/all_product_view', $data);
+            $this->load->view('front/layouts/footer');
+        }
     }
 ?>

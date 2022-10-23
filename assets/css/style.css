@@ -198,3 +198,18 @@ footer ul li a {
     border-radius: 50%;
     margin-left: 20px;
 }
+.image-box{
+    width:90% !important;
+    display: flex; 
+    justify-content: center;
+    margin: 100px 50px!important;
+    overflow: hidden !important;
+}
+.image-box img{
+    width: 100% !important;
+    height: auto;
+    transition: all 0.5s ease-in-out;
+}
+.image-box:hover img{
+    transform: scale(1.05);
+}
