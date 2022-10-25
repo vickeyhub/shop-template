@@ -4,9 +4,11 @@
     font-style: normal;
     src: url("../fonts/CG.ttf");
 }
-header{
-    margin:0 3rem;
+body,header{
     background:#f5f4f1 !important;
+}
+header .header-container{
+    margin:0 3rem;
 }
 main{
     background:#f5f4f1 !important;
