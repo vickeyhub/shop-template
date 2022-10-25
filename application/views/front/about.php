@@ -38,7 +38,7 @@
                     <img src="<?= base_url('assets/images/home/about-3.jpg'); ?>" class="w-100">
                 </div>
             </div>
-            <div class="container">
+            <div class="container pb-5">
                 <h5 class="py-5 text-center">EVERYTHING IS DESIGNED , FEW THINGS ARE DESIGNED WELL </h5>
                 <p class="text-center normal-og">A remarkable team of highly skilled artisans and designers, work to achieve excellence at DDS.<br><br>
 

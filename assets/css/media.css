@@ -58,6 +58,9 @@
     .drawer-nav{
         z-index: 5;
     }
+    .category-box{
+        margin-bottom: 30px !important;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
