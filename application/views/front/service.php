@@ -73,7 +73,7 @@
                 </p>
             </div>
 
-            <div class="service-box mt-5">
+            <div class="service-box mt-5 py-5">
                 <div class="w-100">
                     <h5 class="text-center"><u>PROJECT CONSULTATION</u></h5>
                     <img src="<?= base_url('assets/images/home/service-8.png'); ?>" class="w-100">

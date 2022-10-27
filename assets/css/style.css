@@ -4,8 +4,14 @@
     font-style: normal;
     src: url("../fonts/CG.ttf");
 }
-header{
+body,header{
+    background:#f5f4f1 !important;
+}
+header .header-container{
     margin:0 3rem;
+}
+main{
+    background:#f5f4f1 !important;
 }
 .small-og {
     font-family: cg !important;
@@ -115,7 +121,7 @@ header{
 
 footer {
     float: left;
-    background-color: rgb(236, 236, 236);
+    background-color: white;
     height: auto;
     /* padding-top: 50px !important; */
 }
@@ -127,26 +133,48 @@ footer ul {
 footer ul li {
     margin: 0;
     list-style: none;
+    margin-bottom:.25em;
 
 }
 
 footer ul li a {
     text-decoration: none;
-    color:rgb(11, 10, 10);
+    color:#000000;
+    font-family: cg;
+    font-size:14px !important;
+    letter-spacing:1.3px;
 }
 
 .footer-small-paragraph {
     font-size: 14px !important;
     font-family: cg;
 }
-
+html:not(.tab-outline) :focus {
+    outline: none;
+}
 .footer-email-box {
-    width: 270px !important;
-    padding: 5px;
+    /* width: 270px !important;
+    padding: 5px; */
+    padding: 10px 45px 10px 0;
+    background-color: #fff;
+    color: #000;
+    max-width: 300px;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid;
+    border-bottom-color: #000;
+}
+.footer-email-box:focus{
+    border: 0;
+    border-bottom: 2px solid !important;
 }
 
 .footer-btn {
+    border: 0 !important;
     margin-top: -5px;
+    font-size:26px;
+    margin-left: -50px;
 }
 
 .footer-social-links a {
@@ -212,4 +240,7 @@ footer ul li a {
 }
 .image-box:hover img{
     transform: scale(1.05);
+}
+.category-box{
+    margin-bottom: 100px !important;
 }

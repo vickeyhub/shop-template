@@ -26,10 +26,10 @@
             </p>
         </div>
 
-        <div class="container my-5">
+        <div class="container my-5 py-5">
             <div class="row">
                 <?php foreach ($all_categories as $category) : ?>
-                    <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center">
+                    <div class="col-md-3 col-sm-12 d-flex flex-wrap justify-content-center category-box">
                         <a href="<?= base_url('product') . '/' . $category->post_category_slug; ?>">
                             <img src="<?= $category->category_thumbnail; ?>" class="img-fluid">
                         </a>

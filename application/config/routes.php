@@ -61,4 +61,5 @@ $route['our-products'] = 'Pages/our_products';
 $route['product/:any'] = 'Pages/product/';
 
 //Admin routes
+$route['admin'] = "Admin_controller/dashboard";
 $route['admin/logout'] = 'Admin_controller/logout';

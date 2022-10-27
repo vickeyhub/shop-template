@@ -19,7 +19,7 @@
                      once-in-a-lifetime deals.</p>
 
                  <input type="email" class="footer-email-box" placeholder="Enter Your Email">
-                 <button class="btn btn-outline-secondary footer-btn">Subscribe</button>
+                 <button class="btn footer-btn"><span class="far fa-envelope"></span></button>
 
                  <div class="footer-social-links mt-4">
                      <a href="https://www.instagram.com/unb_interio_official/" target="https://www.instagram.com/unb_interio_official/ " class="text-dark"><i class="fa fa-instagram fa-2x"></i></a>
