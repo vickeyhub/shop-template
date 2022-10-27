@@ -1,3 +1,4 @@
+    <!--this is about us page  -->
     <main role="main">
         <div class="wrapper">
             <h1 class="text-center">ABOUT</h1>

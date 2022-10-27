@@ -1,4 +1,5 @@
- <main role="main">
+<!-- this is home page -->
+<main role="main">
      <div class="main-slider-area">
          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
              <div class="carousel-inner">

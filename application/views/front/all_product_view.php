@@ -1,3 +1,4 @@
+<!-- this is all product categroy page -->
 <main role="main">
     <div class="container">
         <div>
