@@ -56,6 +56,11 @@
      $(document).ready(function() {
          $('.drawer').drawer();
      });
+        const myCarouselElement = document.querySelector('#carouselExampleControls')
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 2000
+       // wrap: false
+    })
  </script>
 
  </body>

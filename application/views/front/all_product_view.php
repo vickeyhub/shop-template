@@ -6,11 +6,11 @@
             <hr class="text-center mx-auto" style="width:100px;">
         </div>
 
-        <div>
+        <div> 
             <?php foreach($posts as $post): ?>
             <div class="image-box">
                 <img src="<?= $post->post_thumbnail; ?>" alt="">
-            </div>
+            </div>     
             <?php endforeach; ?>
         </div>
     </div>
