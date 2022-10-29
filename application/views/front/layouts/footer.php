@@ -4,8 +4,8 @@
              <div class="col-md-3">
                  <p class="small-og">DELHI DESIGN STUDIO</p>
                  <ul>
-                     <li><a href="#">CONTACT</a></li>
-                     <li><a href="#">ABOUT US</a></li>
+                     <li><a href="<?php echo base_url("contact-us"); ?>">CONTACT</a></li>
+                     <li><a href="<?php echo base_url("about-us"); ?>">ABOUT US</a></li>
                      <li><a href="#">SEARCH</a></li>
                      <li><a href="#">RETURN & EXCHANGES</a></li>
                      <li><a href="#">PRIVACY POLICY</a></li>
@@ -22,17 +22,17 @@
                  <button class="btn footer-btn"><span class="far fa-envelope"></span></button>
 
                  <div class="footer-social-links mt-4">
-                     <a href="https://www.instagram.com/unb_interio_official/" target="https://www.instagram.com/unb_interio_official/ " class="text-dark"><i class="fa fa-instagram fa-2x"></i></a>
-                     <a href="https://www.facebook.com/unbdesignstudio.design" target="https://www.facebook.com/unbdesignstudio.design" class="text-dark"><i class="fa fa-facebook-square fa-2x"></i></a>
-                     <a href="https://twitter.com/home" target="https://twitter.com/home" class="text-dark"><i class="fa fa-twitter fa-2x"></i></a>
-                     <a href="https://in.pinterest.com/sumitsharma9736410/" target="https://in.pinterest.com/sumitsharma9736410/" class="text-dark"><i class="fa fa-pinterest fa-2x"></i></a>
-                     <a href="https://twitter.com/home" target="https://twitter.com/home" class="text-dark"><i class="fa fa-linkedin fa-2x"></i></a>
+                     <a href="https://www.instagram.com/unb_interio_official/" target="https://www.instagram.com/unb_interio_official/ " class="text-dark"><i class="fa fa-instagram c-2x"></i></a>
+                     <a href="https://www.facebook.com/unbdesignstudio.design" target="https://www.facebook.com/unbdesignstudio.design" class="text-dark"><i class="fa fa-facebook-square c-2x"></i></a>
+                     <a href="https://twitter.com/home" target="https://twitter.com/home" class="text-dark"><i class="fa fa-twitter c-2x"></i></a>
+                     <a href="https://in.pinterest.com/sumitsharma9736410/" target="https://in.pinterest.com/sumitsharma9736410/" class="text-dark"><i class="fa fa-pinterest c-2x"></i></a>
+                     <a href="https://twitter.com/home" target="https://twitter.com/home" class="text-dark"><i class="fa fa-linkedin c-2x"></i></a>
                  </div>
              </div>
              <div class="col-md-3">
-                 <p class="small-og">CONTACT US</p> <br>
-                 <p>CAll US : +918800242774</p>
-                 <p>EMAIL ID : newconcept.unb@gmail.com </p>
+                 <p class="small-og ">CONTACT US</p>
+                 <p class="footer-og "><b>CAll US :</b>  +918800242774</p>
+                 <p class="footer-og "><b>EMAIL ID :</b> newconcept.unb@gmail.com </p>
 
              </div>
 

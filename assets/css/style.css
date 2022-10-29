@@ -244,3 +244,11 @@ html:not(.tab-outline) :focus {
 .category-box{
     margin-bottom: 100px !important;
 }
+.footer-og
+{
+    font-size: 13.6px;
+}
+
+.c-2x {
+    font-size: 25px !important;
+}
