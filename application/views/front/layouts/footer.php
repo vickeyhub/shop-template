@@ -6,8 +6,8 @@
                  <ul>
                      <li><a href="<?php echo base_url("contact-us"); ?>">CONTACT</a></li>
                      <li><a href="<?php echo base_url("about-us"); ?>">ABOUT US</a></li>
-                     <li><a href="#">SEARCH</a></li>
-                     <li><a href="#">RETURN & EXCHANGES</a></li>
+                    
+                    
                      <li><a href="#">PRIVACY POLICY</a></li>
                      <li><a href="#">SHIPPING </a></li>
                      <li><a href="#">TERMS OF SERVICE</a></li>
@@ -27,6 +27,7 @@
                      <a href="https://twitter.com/home" target="https://twitter.com/home" class="text-dark"><i class="fa fa-twitter c-2x"></i></a>
                      <a href="https://in.pinterest.com/sumitsharma9736410/" target="https://in.pinterest.com/sumitsharma9736410/" class="text-dark"><i class="fa fa-pinterest c-2x"></i></a>
                      <a href="https://twitter.com/home" target="https://twitter.com/home" class="text-dark"><i class="fa fa-linkedin c-2x"></i></a>
+                     <a href="#" target="#" class="text-dark"><i class="fa fa-whatsapp c-2x"></i></a>
                  </div>
              </div>
              <div class="col-md-3">
