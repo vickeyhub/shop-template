@@ -2,12 +2,10 @@
      <div class="container-fluid p-5">
          <div class="row">
              <div class="col-md-3">
-                 <p class="small-og">DELHI DESIGN STUDIO</p>
+                 <p class="small-og">UNB Design Studio</p>
                  <ul>
                      <li><a href="<?php echo base_url("contact-us"); ?>">CONTACT</a></li>
                      <li><a href="<?php echo base_url("about-us"); ?>">ABOUT US</a></li>
-                    
-                    
                      <li><a href="#">PRIVACY POLICY</a></li>
                      <li><a href="#">SHIPPING </a></li>
                      <li><a href="#">TERMS OF SERVICE</a></li>
@@ -39,7 +37,7 @@
 
              <div class="col-md-12 mt-5">
                  <div class="text-center small-og">
-                     <p>&copy; 2022 DDS All Rights Reserved</p>
+                     <p>&copy; 2022 UNB Design Studio All Rights Reserved</p>
                      <p>Powered by Dishu</p>
                  </div>
              </div>

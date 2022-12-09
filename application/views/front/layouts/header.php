@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DELHI DESIGN STUDIO</title>
-    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>UNB Design Studio</title>
+    <link rel="icon" type="image/x-icon" href="images/home/logo1.png">
     <!-- icon link -->
     <script src="https://kit.fontawesome.com/a49af7c9db.js" crossorigin="anonymous"></script>
     <!-- bootstrap -->
@@ -20,14 +20,14 @@
 
 <body class="drawer drawer--right">
     <div class="sub-header w-100 bg-dark">
-        <p class="text-white text-center text-uppercase inv-text py-2">DELHI DESIGN STUDIO</p>
+        <p class="text-white text-center text-uppercase inv-text py-2">UNB Design Studio</p>
     </div>
 
     <header role="banner">
         <div class="header-container">
             <div class="site-header d-flex justify-content-between">
                 <div class="logo">
-                    <img src="<?= base_url('assets/images/home/logo.png'); ?>" alt="">
+                    <img class="logoimg" src="<?= base_url('assets/images/home/logo2.png'); ?>" alt="">
                 </div>
                 <div class="menu-items">
                     <ul class="my-nav">

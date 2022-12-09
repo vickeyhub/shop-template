@@ -19,7 +19,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.639170703808!2d77.0818657!3d28.610599699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05ff2f8c8f15%3A0xe229dc47fbdbd536!2sUNB%20Design%20Studio!5e0!3m2!1sen!2sin!4v1665898409012!5m2!1sen!2sin" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </p>
             <!--  <p>
-                    <b>DELHI DESIGN STUDIO</b><br>
+                    <b>UNB Design Studio</b><br>
                     <b>ADDRESS</b>: Plot no 36, pace city 1 , sector 37 ,Gurugram Haryana -122001 <br>
                     <b>PHONE NUMBER</b>: 0124-4796600<br>
                     <b>EMAIL ID</b>: we@invhome.in

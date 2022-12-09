@@ -252,3 +252,13 @@ html:not(.tab-outline) :focus {
 .c-2x {
     font-size: 25px !important;
 }
+
+.text-center
+{
+    font-family: cg;
+}
+ .logoimg
+ {
+    height:100px !important;
+    width:100px !important;
+ }

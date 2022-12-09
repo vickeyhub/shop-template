@@ -35,14 +35,14 @@
                  <img class="my-img" src="<?= base_url('assets/images/home/3_540x.png'); ?>">
                  <h2 class="fw-light text-center mt-3">FURNITURE</h1>
                      <div class="d-flex justify-content-center">
-                         <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
+                         <!-- <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button> -->
                      </div>
              </div>
              <div class="my-3 sm-flex">
                  <img class="my-img" src="<?= base_url('assets/images/home/21_540x.png'); ?>">
                  <h2 class="fw-light text-center mt-3">LIGHTING</h1>
                      <div class="d-flex justify-content-center">
-                         <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
+                         <!-- <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button> -->
                      </div>
 
              </div>
@@ -50,7 +50,7 @@
                  <img class="my-img" src="<?= base_url('assets/images/home/20_540x.png'); ?>">
                  <h2 class="fw-light text-center mt-3">DINING</h1>
                      <div class="d-flex justify-content-center">
-                         <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
+                         <!-- <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button> -->
                      </div>
              </div>
 
@@ -75,14 +75,14 @@
                  <img class="my-img" src="<?= base_url('assets/images/home/couson.png'); ?>">
                  <h2 class="fw-light text-center mt-3">CUSHIONS</h1>
                      <div class="d-flex justify-content-center">
-                         <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
+                         <!-- <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button> -->
                      </div>
              </div>
              <div class="my-3 sm-flex">
                  <img class="my-img" src="<?= base_url('assets/images/home/flower-pot.png'); ?>">
                  <h2 class="fw-light text-center mt-3">HOME DECOR</h1>
                      <div class="d-flex justify-content-center">
-                         <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
+                         <!-- <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button> -->
                      </div>
 
              </div>
@@ -90,7 +90,7 @@
                  <img class="my-img" src="<?= base_url('assets/images/home/bed.png'); ?>">
                  <h2 class="fw-light text-center mt-3">BEDDING</h1>
                      <div class="d-flex justify-content-center">
-                         <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button>
+                         <!-- <button class="btn btn-outline-secondary btn-sm category-btn">SHOP NOW</button> -->
                      </div>
              </div>
 
@@ -103,14 +103,14 @@
                  <img class="w-100" src="<?= base_url('assets/images/home/shop-the-look.png'); ?>">
                  <h2 class="fw-light text-center mt-3">SHOP THE LOOK</h1>
                      <div class="d-flex justify-content-center">
-                         <button class="btn btn-outline-secondary btn-sm category-btn">EXPLORE</button>
+                         <!-- <button class="btn btn-outline-secondary btn-sm category-btn">EXPLORE</button> -->
                      </div>
              </div>
              <div class="col-md-6 my-3">
                  <img class="w-100" src="<?= base_url('assets/images/home/tree-pot.png'); ?>">
                  <h2 class="fw-light text-center mt-3">SHOP BY SET</h1>
                      <div class="d-flex justify-content-center">
-                         <button class="btn btn-outline-secondary btn-sm category-btn">EXPLORE</button>
+                         <!-- <button class="btn btn-outline-secondary btn-sm category-btn">EXPLORE</button> -->
                      </div>
 
              </div>
@@ -119,11 +119,11 @@
      </div>
      <div class="hero-image-area">
          <div class="hero-image">
-             <img src="<?= base_url('assets/images/home/hero_background.webp'); ?>" alt="" class="w-100">
+             <img src="<?= base_url('assets/images/home/hero_background.jpg'); ?>" alt="" class="w-100">
          </div>
          <div class="hero-image-cover d-flex flex-column justify-content-center">
              <p class="text-center visit-p">VISIT</p>
-             <h1 class="text-center size-45">DELHI DESIGN STUDIO</h1>
+             <h1 class="text-center size-45">UNB Design Studio</h1>
              <p class="text-center address-p">D-3 E-block, Sitapuri Extension, Delhi- 110045</p>
          </div>
      </div>

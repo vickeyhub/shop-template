@@ -3,8 +3,8 @@
         <div class="wrapper">
             <h1 class="text-center">ABOUT</h1>
             <div class="w-100 text-center">
-                <img src="<?= base_url('assets/images/home/ceo.jfif'); ?>" class="ceopic">
-                <img src="<?= base_url('assets/images/home/ceo2.jfif'); ?>" class="ceopic">
+                <img src="<?= base_url('assets/images/home/ceo.png'); ?>" >
+                
             </div>
             <div class="container">
                 <p class="text-center py-4">With an intuitive eye for quality, detail, and presentation, Nitin Jain and
@@ -31,7 +31,7 @@
                     comprising 3 levels, is an “ultra-luxe” space. The store is to get inspired and it's here that one
                     can browse a wide range of furniture, décor, accessories, and unique materials like semi-precious
                     stones, eggshells, stingray leather, bamboo, horn beautifully adding on walls and furniture. An
-                    inherent “sense of place” in our aesthetic makes DELHI DESIGN STUDIO Home stand out in the multitude of luxury
+                    inherent “sense of place” in our aesthetic makes UNB Design Studio Home stand out in the multitude of luxury
                     interior brands.
                 </p>
 
