@@ -262,3 +262,10 @@ html:not(.tab-outline) :focus {
     height:100px !important;
     width:100px !important;
  }
+
+ .coverfontsize
+ {
+    font-size: 60px !important;
+ }
+ 
+ 

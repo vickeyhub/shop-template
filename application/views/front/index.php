@@ -101,14 +101,14 @@
          <div class="row">
              <div class="col-md-6 my-3">
                  <img class="w-100" src="<?= base_url('assets/images/home/shop-the-look.png'); ?>">
-                 <h2 class="fw-light text-center mt-3">SHOP THE LOOK</h1>
+                 <h2 class="fw-light text-center mt-3">CENTRE TABLE</h1>
                      <div class="d-flex justify-content-center">
                          <!-- <button class="btn btn-outline-secondary btn-sm category-btn">EXPLORE</button> -->
                      </div>
              </div>
              <div class="col-md-6 my-3">
                  <img class="w-100" src="<?= base_url('assets/images/home/tree-pot.png'); ?>">
-                 <h2 class="fw-light text-center mt-3">SHOP BY SET</h1>
+                 <h2 class="fw-light text-center mt-3"> DECOR</h1>
                      <div class="d-flex justify-content-center">
                          <!-- <button class="btn btn-outline-secondary btn-sm category-btn">EXPLORE</button> -->
                      </div>
@@ -121,10 +121,10 @@
          <div class="hero-image">
              <img src="<?= base_url('assets/images/home/hero_background.jpg'); ?>" alt="" class="w-100">
          </div>
-         <div class="hero-image-cover d-flex flex-column justify-content-center">
-             <p class="text-center visit-p">VISIT</p>
-             <h1 class="text-center size-45">UNB Design Studio</h1>
-             <p class="text-center address-p">D-3 E-block, Sitapuri Extension, Delhi- 110045</p>
+         <div class="  hero-image-cover d-flex flex-column justify-content-center coverfontsize">
+             <p class=" text-center visit-p">VISIT</p>
+             <h1 class=" coverfontsize text-center size-45">UNB Design Studio</h1>
+             <p class="  text-center address-p">D-3 E-block, Sitapuri Extension, Delhi- 110045</p>
          </div>
      </div>
  </main>

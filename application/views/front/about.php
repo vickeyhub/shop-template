@@ -8,7 +8,7 @@
             </div>
             <div class="container">
                 <p class="text-center py-4">With an intuitive eye for quality, detail, and presentation, Nitin Jain and
-                    Ritika Jain, Founders of DDS Home have always believed in pushing the boundaries especially when it
+                    Ritika Jain, Founders of UNB Design Studio have always believed in pushing the boundaries especially when it
                     comes to redefining affordable luxury interiors</p>
 
 
@@ -19,20 +19,12 @@
                 </div>
 
                 <p class="p-5 text-center normal-og">
-                    INV Home is a one-stop destination for bespoke furniture and decor pieces. With an in-house product
+                    UNB Design Studio is a one-stop destination for bespoke furniture and decor pieces. With an in-house product
                     & interior designing unit, we are one of the leading luxury brands combining time-honored artisan
                     techniques with precise state-of-the-art detailing. High-quality material, styled with understated
                     elegance, lends unique richness to our products, creating alluring designs tailored for today’s
-                    modern lifestyle. We invite you to come on board and express yourself. INV Home team has a rich
-                    experience of over 12 years of working with renowned architects and designers globally on projects
-                    like Kempinski -Munich, Park Hyatt-Vienna, Four seasons -Moscow, Mandarin Oriental –Munich. <br><br>
-
-                    Our 15000 sq ft experience center located on MG Road, a busy connection between Delhi and Gurugram
-                    comprising 3 levels, is an “ultra-luxe” space. The store is to get inspired and it's here that one
-                    can browse a wide range of furniture, décor, accessories, and unique materials like semi-precious
-                    stones, eggshells, stingray leather, bamboo, horn beautifully adding on walls and furniture. An
-                    inherent “sense of place” in our aesthetic makes UNB Design Studio Home stand out in the multitude of luxury
-                    interior brands.
+                    modern lifestyle. We invite you to come on board and express yourself. UNB Design Studio team has a rich
+                    experience of over 6 years of working with renowned architects and designers
                 </p>
 
                 <div class="w-100">

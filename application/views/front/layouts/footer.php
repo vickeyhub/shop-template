@@ -6,18 +6,18 @@
                  <ul>
                      <li><a href="<?php echo base_url("contact-us"); ?>">CONTACT</a></li>
                      <li><a href="<?php echo base_url("about-us"); ?>">ABOUT US</a></li>
-                     <li><a href="#">PRIVACY POLICY</a></li>
+                     <!-- <li><a href="#">PRIVACY POLICY</a></li>
                      <li><a href="#">SHIPPING </a></li>
-                     <li><a href="#">TERMS OF SERVICE</a></li>
+                     <li><a href="#">TERMS OF SERVICE</a></li> -->
                  </ul>
              </div>
              <div class="col-md-4">
-                 <p class="small-og">SIGN UP AND SAVE</p>
+                 <!-- <p class="small-og">SIGN UP AND SAVE</p>
                  <p class="footer-small-paragraph">Subscribe to get special offers, free giveaways, and
-                     once-in-a-lifetime deals.</p>
+                     once-in-a-lifetime deals.</p> -->
 
                  <input type="email" class="footer-email-box" placeholder="Enter Your Email">
-                 <button class="btn footer-btn"><span class="far fa-envelope"></span></button>
+                 <button class="btn footer-btn" ><span class="far fa-envelope"></span></button>
 
                  <div class="footer-social-links mt-4">
                      <a href="https://www.instagram.com/unb_interio_official/" target="https://www.instagram.com/unb_interio_official/ " class="text-dark"><i class="fa fa-instagram c-2x"></i></a>
@@ -38,7 +38,7 @@
              <div class="col-md-12 mt-5">
                  <div class="text-center small-og">
                      <p>&copy; 2022 UNB Design Studio All Rights Reserved</p>
-                     <p>Powered by Dishu</p>
+                     <p>Powered by Danish</p>
                  </div>
              </div>
          </div>
