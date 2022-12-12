@@ -14,7 +14,7 @@
 
 
 
-                at essentia we offer our clients the opportunity to have bespoke furniture for their homes. when we say bespoke we mean it as our clients have the liberty to customize every aspect of their furniture from design, material, time and cost. our pieces are handmade using world class materials of the finest quality. all the furniture is made in-house at our own production facility at manesar.<br><br>
+                at UNB Design Studio we offer our clients the opportunity to have bespoke furniture for their homes. when we say bespoke we mean it as our clients have the liberty to customize every aspect of their furniture from design, material, time and cost. our pieces are handmade using world class materials of the finest quality. all the furniture is made in-house at our own production facility at manesar.<br><br>
 
 
 
@@ -22,7 +22,7 @@
 
 
 
-                the choice between essentia, baker, giorgetti, b&b, polyform, fendi, flexform, foscarini, artemide and scores of others from across the globe is made primarily based on what style best enhances the overall look and feel of the project. our strong logistic capabilities allow us to choose and bring various items across borders without any challenge.<br><br>
+                the choice between UNB Design Studio, baker, giorgetti, b&b, polyform, fendi, flexform, foscarini, artemide and scores of others from across the globe is made primarily based on what style best enhances the overall look and feel of the project. our strong logistic capabilities allow us to choose and bring various items across borders without any challenge.<br><br>
             </p>
         </div>
 

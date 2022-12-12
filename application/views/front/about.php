@@ -7,8 +7,8 @@
                 
             </div>
             <div class="container">
-                <p class="text-center py-4">With an intuitive eye for quality, detail, and presentation, Nitin Jain and
-                    Ritika Jain, Founders of UNB Design Studio have always believed in pushing the boundaries especially when it
+                <p class="text-center py-4">With an intuitive eye for quality, detail, and presentation, Sumit Sharma and
+                    Ankush Sharma, Founders of UNB Design Studio have always believed in pushing the boundaries especially when it
                     comes to redefining affordable luxury interiors</p>
 
 
@@ -24,7 +24,7 @@
                     techniques with precise state-of-the-art detailing. High-quality material, styled with understated
                     elegance, lends unique richness to our products, creating alluring designs tailored for today’s
                     modern lifestyle. We invite you to come on board and express yourself. UNB Design Studio team has a rich
-                    experience of over 6 years of working with renowned architects and designers
+                    experience of over 6 years of working with renowned architects and designers globally.
                 </p>
 
                 <div class="w-100">
@@ -33,7 +33,7 @@
             </div>
             <div class="container pb-5">
                 <h5 class="py-5 text-center">EVERYTHING IS DESIGNED , FEW THINGS ARE DESIGNED WELL </h5>
-                <p class="text-center normal-og">A remarkable team of highly skilled artisans and designers, work to achieve excellence at DDS.<br><br>
+                <p class="text-center normal-og">A remarkable team of highly skilled artisans and designers, work to achieve excellence at UNB Design Studio.<br><br>
 
                     The intricacy in each design represents a story of Indian heritage and cultural beliefs. We can redefine any expanse by devoting time to design and develop as per client’s needs.<br><br>
 
@@ -43,7 +43,7 @@
 
                     Compiling and procuring the best materials from diverse resources from all over the world is what, we believe to be a cause of satisfaction and happiness.<br><br>
 
-                    Join us in this journey of supporting the value of our Ancient Art & Culture.</p>
+                    Join us in this journey of supporting the value of our modern style.</p>
             </div>
         </div>
 
