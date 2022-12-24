@@ -169,7 +169,9 @@ class Admin_controller extends CI_Controller
     // post form of articles
     public function add_post()
     {
-        $data['fetch_cat'] = $this->db->get('post_category');
+        $data['fetch_cat'] = $this->db->where_not_in('post_category_title','residential')
+        ->where_not_in('post_category_title','commercial')
+        ->where_not_in('post_category_title','elevation')->get('post_category');
         $this->load->view('admin/include/header');
         $this->load->view('admin/article_form', $data);
     }

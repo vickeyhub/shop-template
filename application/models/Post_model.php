@@ -8,6 +8,9 @@
 
         public function get_category($limit,$offset){
             $query = $this->db->limit($limit,$offset)
+            // ->where_not_in('post_category_title','residential')
+            // ->where_not_in('post_category_title','commercial')
+            // ->where_not_in('post_category_title','elevation')
             ->get('post_category');
             return $query;
         }

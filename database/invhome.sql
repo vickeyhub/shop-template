@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 18, 2022 at 09:38 AM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 8.1.10
+-- Generation Time: Dec 24, 2022 at 11:16 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 8.1.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -60,6 +60,14 @@ CREATE TABLE `posts` (
   `post_created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `posts`
+--
+
+INSERT INTO `posts` (`post_id`, `post_title`, `post_slug_url`, `post_description`, `post_category`, `post_thumbnail`, `post_meta_tags`, `post_meta_description`, `post_created_at`) VALUES
+(22, 'first title', 'first-title', '<p>this is something text</p>\r\n', '7', 'http://localhost:8080/upload/products/2-1-300x196.jpg', 'post titlr', 'meta description', '2022-12-24 21:23:03'),
+(23, 'accent chair', 'accent-chair', '<p>accent chair</p>\r\n', '7', 'http://localhost:8080/upload/products/accent-chair-2018-38.jpg', 'meta', 'mwrejg dfjvbfjbfj', '2022-12-24 21:24:20');
+
 -- --------------------------------------------------------
 
 --
@@ -79,16 +87,14 @@ CREATE TABLE `post_category` (
 --
 
 INSERT INTO `post_category` (`post_category_id`, `post_category_title`, `post_category_slug`, `category_thumbnail`, `createt`) VALUES
-(7, 'SOFA SET', 'sofa-set', 'http://localhost:8080/upload/categories/sofa.png', '2022-10-29 14:42:24'),
-(8, 'CHAIR', 'chair', 'http://localhost:8080/upload/categories/chair-1.png', '2022-10-29 14:43:01'),
-(9, 'BED', 'bed', 'http://localhost:8080/upload/categories/bed.png', '2022-10-29 14:42:43'),
-(10, 'CONSOLE', 'console', 'http://localhost:8080/upload/categories/console.png', '2022-10-29 14:43:11'),
-(11, 'DINING TABLE', 'dining-table', 'http://localhost:8080/upload/categories/dining.png', '2022-10-29 14:43:30'),
-(12, 'END TABLE', 'end-table', 'http://localhost:8080/upload/categories/endtable1.png', '2022-10-29 14:40:25'),
-(13, 'MEDIA UNIT', 'media-unit', 'http://localhost:8080/upload/categories/unit.png', '2022-10-29 14:40:58'),
-(14, 'SIDE TABLE', 'side-table', 'http://localhost:8080/upload/categories/sidetable.png', '2022-10-29 14:41:53'),
-(15, 'COMMERCIAL FURNITURE', 'commercial-furniture', 'http://localhost:8080/upload/categories/vector-office.png', '2022-11-01 03:48:19'),
-(16, 'CENTER TABLE', 'center-table', 'http://localhost:8080/upload/categories/tavble.jpg', '2022-11-01 06:06:40');
+(7, 'sofa set', 'sofa-set', 'http://localhost:8080/upload/categories/sofa.png', '2022-10-23 00:17:04'),
+(8, 'chair', 'chair', 'http://localhost:8080/upload/categories/chair-1.png', '2022-10-22 23:53:14'),
+(9, 'new', 'new', 'http://localhost:8080/upload/categories/undraw_Programming_re_kg9v.png', '2022-10-25 18:44:57'),
+(10, 'foutth', 'foutth', 'http://localhost:8080/upload/categories/coffeetable.png', '2022-10-25 18:43:43'),
+(11, 'bed', 'bed', 'http://localhost:8080/upload/categories/bed.png', '2022-10-25 18:44:38'),
+(12, 'residential', 'residential', 'http://localhost:8080/upload/categories/resi.jpg', '2022-12-24 22:01:00'),
+(13, 'commercial', 'commercial', 'http://localhost:8080/upload/categories/com.jpg', '2022-12-24 22:03:21'),
+(14, 'elevation', 'elevation', 'http://localhost:8080/upload/categories/elivation.jpg', '2022-12-24 22:04:28');
 
 --
 -- Indexes for dumped tables
@@ -126,13 +132,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `post_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT for table `post_category`
 --
 ALTER TABLE `post_category`
-  MODIFY `post_category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `post_category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

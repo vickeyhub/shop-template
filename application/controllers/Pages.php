@@ -30,7 +30,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         public function our_products(){
-            $data['all_categories'] = $this->db->get('post_category')->result();
+            $data['all_categories'] = $this->db->where_not_in('post_category_title','residential')
+            ->where_not_in('post_category_title','commercial')
+            ->where_not_in('post_category_title','elevation')
+            ->get('post_category')->result();
             $this->load->view('front/layouts/header');
             $this->load->view('front/our_products', $data);
             $this->load->view('front/layouts/footer');
