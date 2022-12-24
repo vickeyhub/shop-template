@@ -300,3 +300,6 @@ html:not(.tab-outline) :focus {
 .coverfontsize {
 	font-size: 60px !important;
 }
+.bg-white{
+	background:var(--bs-body-bg-rgb);
+}

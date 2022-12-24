@@ -36,13 +36,13 @@
 						<li class="my-nav-li"><a href="<?= base_url('our-products'); ?>">Our Product</a></li>
 						<li class="my-nav-li"> <a href="<?= base_url('services'); ?>">Our services</a>
 							<ul class="submenu">
-								<li><a href="#" class="submenu-link">interior design</a></li>
+								<li><a href="<?= base_url('interiors-and-design'); ?>" class="submenu-link">interior design</a></li>
 								<li><a href="#" class="submenu-link">elevation design</a></li>
-								<li><a href="#" class="submenu-link">turnkey execution</a></li>
-								<li><a href="#" class="submenu-link">project counsultancy</a></li>
-								<li><a href="#" class="submenu-link">decor</a></li>
-								<li><a href="#" class="submenu-link">landscape designing</a></li>
-								<li><a href="#" class="submenu-link">lighting, art & accessories</a></li>
+								<li><a href="<?= base_url('turnkey-execution'); ?>" class="submenu-link">turnkey execution</a></li>
+								<li><a href="<?= base_url('project-consultancy'); ?>" class="submenu-link">project counsultancy</a></li>
+								<li><a href="<?= base_url('decor'); ?>" class="submenu-link">decor</a></li>
+								<li><a href="<?= base_url('landscape-designing'); ?>" class="submenu-link">landscape designing</a></li>
+								<li><a href="<?= base_url('lighting-art-and-accessories'); ?>" class="submenu-link">lighting, art & accessories</a></li>
 							</ul>
 						</li>
 						<li class="my-nav-li"><a href="<?= base_url('contact-us'); ?>">contact us</a></li>

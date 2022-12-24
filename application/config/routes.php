@@ -59,6 +59,12 @@ $route['services'] = 'Pages/services';
 $route['contact-us'] = 'Pages/contact_us';
 $route['our-products'] = 'Pages/our_products';
 $route['product/:any'] = 'Pages/product/';
+$route['interiors-and-design'] = 'Services/interiors_and_design';
+$route['turnkey-execution'] = 'Services/turnkey';
+$route['project-consultancy'] = 'Services/project_consultancy';
+$route['decor'] = 'Services/decor';
+$route['landscape-designing'] = "Services/landscape_designing";
+$route['lighting-art-and-accessories'] = "Services/lighting_art_and_accessories";
 
 //Admin routes
 $route['admin'] = "Admin_controller/dashboard";
