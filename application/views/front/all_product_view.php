@@ -10,7 +10,10 @@
             <?php foreach($posts as $post): ?>
             <div class="image-box">
                 <img src="<?= $post->post_thumbnail; ?>" alt="">
-            </div>     
+            </div> 
+            <!-- <div class="container reading-post-description w-100">
+                    <?php //echo $post->post_description; ?>
+            </div>     -->
             <?php endforeach; ?>
         </div>
     </div>

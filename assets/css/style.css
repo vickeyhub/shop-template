@@ -303,3 +303,10 @@ html:not(.tab-outline) :focus {
 .bg-white{
 	background:var(--bs-body-bg-rgb);
 }
+.reading-post-description{
+	width:100%;
+}
+.reading-post-description img{
+	width:100%;
+	height:auto !important;
+}
