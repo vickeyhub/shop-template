@@ -269,4 +269,26 @@ class Admin_controller extends CI_Controller
             return redirect('Admin_controller/show_all_post');
         }
     }
+    public function insert_media()
+    {
+        $config['allowed_types'] = 'jpg|png|jpeg|svg';
+        $config['upload_path']   = './upload/media/';
+        $config['max_size']      = 1024;
+        $config['encrypt_name']  = TRUE;
+
+        //load the library file
+        $this->load->library('upload', $config);
+
+        if (!$this->upload->do_upload('upload')) {
+            echo json_encode(array('error' => $this->upload->display_errors()));
+        } else {
+            $upload_data = $this->upload->data();
+            echo json_encode(array('file_name' => $upload_data['file_name']));
+        }
+    }
+    public function file_browser()
+    {
+        $data['fileList'] = glob('./upload/media/*');
+        $this->load->view('admin/file_browser', $data);
+    }
 }

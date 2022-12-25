@@ -35,7 +35,12 @@
 	<script src="<?php echo base_url('assets/js/Chart.roundedBarCharts.js'); ?>"></script>
 	<script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
 	<script>
-        CKEDITOR.replace( 'description' );
+        // CKEDITOR.replace( 'description' );
+		CKEDITOR.replace('description', {
+			height: 400,
+			filebrowserUploadUrl: '<?php echo base_url('Admin_controller/insert_media'); ?>',
+			filebrowserBrowseUrl: '<?php echo base_url('Admin_controller/file_browser'); ?>'
+		});
 		$("#thumb_preview").hide();
 		post_thumbnail.onchange = evt => {
 			const[file] = post_thumbnail.files
