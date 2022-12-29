@@ -10,12 +10,12 @@
     <div class="col-md-6">
             <img src="<?= base_url("assets/images/resi.jpg"); ?>" alt="Residential" class="img-fluid">
             <!-- <h2 class="fw-light text-center mt-5 h4">RESIDENTIAL</h2> -->
-            <center><button class="btn btn-light bg-white p-3 my-4"><h4 class="fw-light h5">RESIDENTIAL</h4></button></center>
+            <center><a href="<?= base_url("residential"); ?>" class="btn btn-light bg-white p-3 my-4"><h4 class="fw-light h5">RESIDENTIAL</h4></a></center>
         </div>
         <div class="col-md-6">
             <img src="<?= base_url("assets/images/com.jpg"); ?>" alt="Residential" class="img-fluid">
             <!-- <h2 class="fw-light text-center mt-5 h4">RESIDENTIAL</h2> -->
-            <center><button class="btn btn-light bg-white p-3 my-4"><h4 class="fw-light h5">COMMERCIAL</h4></button></center>
+            <center><a href="<?= base_url("commercial"); ?>" class="btn btn-light bg-white p-3 my-4"><h4 class="fw-light h5">COMMERCIAL</h4></a></center>
         </div>
     </div>
 </div>

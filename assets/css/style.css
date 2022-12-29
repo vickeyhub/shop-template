@@ -267,13 +267,13 @@ html:not(.tab-outline) :focus {
 	overflow: hidden !important;
 }
 
-.image-box img {
+.image-box img, .description-img img {
 	width: 100% !important;
 	height: auto;
 	transition: all 0.5s ease-in-out;
 }
 
-.image-box:hover img {
+.image-box:hover img, .description-img img:hover {
 	transform: scale(1.05);
 }
 
@@ -310,3 +310,29 @@ html:not(.tab-outline) :focus {
 	width:100%;
 	height:auto !important;
 }
+.parent-layer{
+	position:relative;
+	width: 100%;
+	height:auto;
+}
+ .second-layer{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .3s ease-in-out;
+}
+.card-hover-text{
+	transition: all .3s ease-in-out;
+	display: none;
+}
+.second-layer:hover{
+	transition: all .3s ease-in-out;
+	background-color:rgba(0, 0, 0, 0.5);
+	
+}
+.second-layer:hover .card-hover-text{
+	transition: all .3s ease-in-out;
+	display: block;
+} 

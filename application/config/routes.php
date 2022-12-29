@@ -65,6 +65,10 @@ $route['project-consultancy'] = 'Services/project_consultancy';
 $route['decor'] = 'Services/decor';
 $route['landscape-designing'] = "Services/landscape_designing";
 $route['lighting-art-and-accessories'] = "Services/lighting_art_and_accessories";
+$route['residential'] = "Services/residential";
+$route['commercial'] = "Services/commercial";
+$route['elevation-design'] = "Services/elevation_design";
+$route['view-service/(:any)'] = "Services/view_service";
 
 //Admin routes
 $route['admin'] = "Admin_controller/dashboard";

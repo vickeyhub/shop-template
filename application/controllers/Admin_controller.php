@@ -176,6 +176,18 @@ class Admin_controller extends CI_Controller
         $this->load->view('admin/article_form', $data);
     }
 
+    public function add_service()
+    {
+        $data['fetch_cat'] = $this->db->where('post_category_title','residential')
+        ->or_where('post_category_title','commercial')
+        ->or_where('post_category_title','elevation')
+        ->get('post_category');
+        // echo '<pre>';print_r($data['fetch_cat']->result());echo '</pre>';die();
+        $this->load->view('admin/include/header');
+        $this->load->view('admin/article_form', $data);
+
+    }
+
     public function save_article()
     {
         $config = [

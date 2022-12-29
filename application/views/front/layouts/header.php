@@ -37,7 +37,7 @@
 						<li class="my-nav-li"> <a href="<?= base_url('services'); ?>">Our services</a>
 							<ul class="submenu">
 								<li><a href="<?= base_url('interiors-and-design'); ?>" class="submenu-link">interior design</a></li>
-								<li><a href="#" class="submenu-link">elevation design</a></li>
+								<li><a href="<?= base_url('elevation-design'); ?>" class="submenu-link">elevation design</a></li>
 								<li><a href="<?= base_url('turnkey-execution'); ?>" class="submenu-link">turnkey execution</a></li>
 								<li><a href="<?= base_url('project-consultancy'); ?>" class="submenu-link">project counsultancy</a></li>
 								<li><a href="<?= base_url('decor'); ?>" class="submenu-link">decor</a></li>
