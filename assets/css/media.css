@@ -61,6 +61,10 @@
     .category-box{
         margin-bottom: 30px !important;
     }
+    .logoimg {
+        width: 60px !important;
+        margin-top: 10px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */

@@ -314,6 +314,8 @@ html:not(.tab-outline) :focus {
 	position:relative;
 	width: 100%;
 	height:auto;
+	max-height: 424px;
+    overflow: hidden;
 }
  .second-layer{
 	width: 100%;

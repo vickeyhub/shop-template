@@ -64,14 +64,41 @@
 				<ul class="drawer-menu">
 					<li><a class="drawer-brand" href="#">
 							<div class="logo">
-								<img src="images/logo.png" alt="">
+								<img src="<?= base_url('assets/images/home/logo2.png'); ?>" alt="">
 							</div>
 						</a>
 					</li>
-					<li><a class="drawer-menu-item" href="index.html">Home</a></li>
-					<li><a class="drawer-menu-item" href="about.html">About</a></li>
-					<li><a class="drawer-menu-item" href="service.html">service</a></li>
-					<li><a class="drawer-menu-item" href="contact_us.html">contact us</a></li>
+					<!-- <li><a class="drawer-menu-item" href="index.html">Home</a></li> -->
+					<li><a class="drawer-menu-item" href="<?= base_url(); ?>">Home</a></li>
+					<li><a class="drawer-menu-item" href="<?= base_url('about-us'); ?>">About</a></li>
+					<li><a class="drawer-menu-item" href="<?= base_url('our-products'); ?>">Our Product</a></li>
+					<!-- <li> <a class="drawer-menu-item" href="<?= base_url('services'); ?>">Our services</a>
+						<ul class="submenu">
+							<li><a href="<?= base_url('interiors-and-design'); ?>" class="submenu-link">interior design</a></li>
+							<li><a href="<?= base_url('elevation-design'); ?>" class="submenu-link">elevation design</a></li>
+							<li><a href="<?= base_url('turnkey-execution'); ?>" class="submenu-link">turnkey execution</a></li>
+							<li><a href="<?= base_url('project-consultancy'); ?>" class="submenu-link">project counsultancy</a></li>
+							<li><a href="<?= base_url('decor'); ?>" class="submenu-link">decor</a></li>
+							<li><a href="<?= base_url('landscape-designing'); ?>" class="submenu-link">landscape designing</a></li>
+							<li><a href="<?= base_url('lighting-art-and-accessories'); ?>" class="submenu-link">lighting, art & accessories</a></li>
+						</ul>
+					</li> -->
+					<div class="dropdown">
+						<a class="drawer-menu-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Our Services
+						</a>
+
+						<ul class="dropdown-menu">
+							<li><a href="<?= base_url('interiors-and-design'); ?>" class="dropdown-item">interior design</a></li>
+							<li><a href="<?= base_url('elevation-design'); ?>" class="dropdown-item">elevation design</a></li>
+							<li><a href="<?= base_url('turnkey-execution'); ?>" class="dropdown-item">turnkey execution</a></li>
+							<li><a href="<?= base_url('project-consultancy'); ?>" class="dropdown-item">project counsultancy</a></li>
+							<li><a href="<?= base_url('decor'); ?>" class="dropdown-item">decor</a></li>
+							<li><a href="<?= base_url('landscape-designing'); ?>" class="dropdown-item">landscape designing</a></li>
+							<li><a href="<?= base_url('lighting-art-and-accessories'); ?>" class="dropdown-item">lighting, art & accessories</a></li>
+						</ul>
+					</div>
+					<li><a class="drawer-menu-item" href="<?= base_url('contact-us'); ?>">contact us</a></li>
 				</ul>
 			</nav>
 		</div>
