@@ -31,13 +31,13 @@
              <div class="col-md-3">
                  <p class="small-og ">CONTACT US</p>
                  <p class="footer-og "><b>CAll US :</b>  +918800242774</p>
-                 <p class="footer-og "><b>EMAIL ID :</b> newconcept.unb@gmail.com </p>
+                 <p class="footer-og "><b>EMAIL ID :</b> info@unbdesignstudio.com </p>
 
              </div>
 
              <div class="col-md-12 mt-5">
                  <div class="text-center small-og">
-                     <p>&copy; 2022 UNB Design Studio All Rights Reserved</p>
+                     <p>&copy; <?= date('Y'); ?> UNB Design Studio All Rights Reserved</p>
                      <p>Powered by Danish</p>
                  </div>
              </div>

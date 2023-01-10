@@ -89,13 +89,13 @@
 						</a>
 
 						<ul class="dropdown-menu">
-							<li><a href="<?= base_url('interiors-and-design'); ?>" class="dropdown-item">interior design</a></li>
-							<li><a href="<?= base_url('elevation-design'); ?>" class="dropdown-item">elevation design</a></li>
-							<li><a href="<?= base_url('turnkey-execution'); ?>" class="dropdown-item">turnkey execution</a></li>
-							<li><a href="<?= base_url('project-consultancy'); ?>" class="dropdown-item">project counsultancy</a></li>
-							<li><a href="<?= base_url('decor'); ?>" class="dropdown-item">decor</a></li>
-							<li><a href="<?= base_url('landscape-designing'); ?>" class="dropdown-item">landscape designing</a></li>
-							<li><a href="<?= base_url('lighting-art-and-accessories'); ?>" class="dropdown-item">lighting, art & accessories</a></li>
+							<li><a href="<?= base_url('interiors-and-design'); ?>" class="dropdown-item text-uppercase">interior design</a></li>
+							<li><a href="<?= base_url('elevation-design'); ?>" class="dropdown-item text-uppercase">elevation design</a></li>
+							<li><a href="<?= base_url('turnkey-execution'); ?>" class="dropdown-item text-uppercase">turnkey execution</a></li>
+							<li><a href="<?= base_url('project-consultancy'); ?>" class="dropdown-item text-uppercase">project counsultancy</a></li>
+							<li><a href="<?= base_url('decor'); ?>" class="dropdown-item text-uppercase">decor</a></li>
+							<li><a href="<?= base_url('landscape-designing'); ?>" class="dropdown-item text-uppercase">landscape designing</a></li>
+							<li><a href="<?= base_url('lighting-art-and-accessories'); ?>" class="dropdown-item text-uppercase">lighting, art & accessories</a></li>
 						</ul>
 					</div>
 					<li><a class="drawer-menu-item" href="<?= base_url('contact-us'); ?>">contact us</a></li>

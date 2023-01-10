@@ -100,7 +100,12 @@ main {
 .my-nav li:hover>.submenu{
 	display:block;
 }
-
+.main-slider-area{
+	height: auto;
+}
+.main-slider-area img{
+	height: auto;
+}
 /* this is for cart menu */
 .icon-nav {
 	height: 100px;
