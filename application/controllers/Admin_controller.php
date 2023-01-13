@@ -303,4 +303,76 @@ class Admin_controller extends CI_Controller
         $data['fileList'] = glob('./upload/media/*');
         $this->load->view('admin/file_browser', $data);
     }
+
+    public function slider()
+    {
+        $this->load->view('admin/include/header');
+        $this->load->view('admin/slider');
+    }
+
+    public function insert_slider()
+    {
+        $config['allowed_types'] = 'jpg|png|jpeg';
+        $config['upload_path']   = './upload/slider/';
+
+        //load the library file
+        $this->load->library('upload', $config);
+
+
+        $this->form_validation->set_rules('title', 'Category Title', 'required');
+        // $this->form_validation->set_rules('description', 'Description', 'required');
+        $this->form_validation->set_error_delimiters('<div class="text-danger">', '</div>');
+        if ($this->form_validation->run() && $this->upload->do_upload('slider_image')) {
+            $file_data = $this->upload->data();
+            $file_path = base_url("upload/slider/" . $file_data['raw_name'] . $file_data['file_ext']);
+
+            //save entries
+            $data = [
+                'slider_title'          => $this->input->post('title'),
+                'slider_thumbnail'      => $file_path,
+                'post_status'           => '1',
+                'slider_created_at'     => date('Y-m-d H:i:s')
+
+            ];
+
+            if ($this->db->insert('slider', $data)) {
+                $response['status'] = 1;
+            }
+        } else {
+            //return error messages
+            $response['status']      = 0;
+            $response['title']       = form_error('title');
+            $response['description'] = form_error('description');
+            $response['image_error'] = $this->upload->display_errors();
+        }
+        echo json_encode($response);
+    }
+
+    public function update_status_of_slider(){
+        // echo '<pre>'; print_r($_POST); die();
+        if ($this->input->post('status') == '0') {
+            $status = '1';
+        } else if ($this->input->post('status') == '1') {
+            $status = '0';
+        }
+
+        $id =  $this->input->post('post_id');
+
+        $data = [
+            'post_status' => $status,
+        ];
+
+        $this->db->where(['slider_id' => $id])->update('slider', $data);
+    }
+    public function delete_slider($id){
+        $query =  $this->db->where(['slider_id' => $id])->get('slider');
+        foreach ($query->result() as $d) {
+            $path = $d->slider_thumbnail;
+        }
+        $t_img = trim($path, base_url());
+        unlink($t_img);
+        $this->db->where('slider_id', $id)
+            ->delete('slider');
+        return redirect('Admin_controller/slider');
+    }
 }

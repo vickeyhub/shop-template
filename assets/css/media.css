@@ -65,6 +65,12 @@
         width: 60px !important;
         margin-top: 10px;
     }
+    .footer-btn {
+        margin-left: -12px !important;
+    }
+    .footer-social-links a {
+        margin: 0 8px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */

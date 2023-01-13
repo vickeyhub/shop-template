@@ -39,5 +39,11 @@
 			</div>
 		</li>
 
+		<li class="nav-item">
+			<a class="nav-link" href="<?= base_url('Admin_controller/slider'); ?>">
+					<i class="icon-layout ti-image mr-3"></i>
+				<span class="menu-title"> Manage Slider</span>
+			</a>
+		</li>
 	</ul>
 </nav>

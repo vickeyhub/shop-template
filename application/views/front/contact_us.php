@@ -12,7 +12,7 @@
         <div class="container-fluid px-5 mt-4 normal-og">
             <p class="text-center"><b>ADDRESS</b>: D-3 E-block, Sitapuri Extension, Delhi- 110045. <br>
                 <b>PHONE NUMBER</b>: +91 8800242774<br>
-                <b>EMAIL ID</b>: info@unbdesignstudio.com
+                <b>EMAIL ID</b>: newconcept.unb@gmail.com
             </p>
 
             <p class="text-center">

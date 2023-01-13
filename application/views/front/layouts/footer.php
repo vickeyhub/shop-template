@@ -11,7 +11,7 @@
                      <li><a href="#">TERMS OF SERVICE</a></li> -->
                  </ul>
              </div>
-             <div class="col-md-4">
+             <div class="col-md-4 mb-4">
                  <!-- <p class="small-og">SIGN UP AND SAVE</p>
                  <p class="footer-small-paragraph">Subscribe to get special offers, free giveaways, and
                      once-in-a-lifetime deals.</p> -->
@@ -19,7 +19,7 @@
                  <input type="email" class="footer-email-box" placeholder="Enter Your Email">
                  <button class="btn footer-btn" ><span class="far fa-envelope"></span></button>
 
-                 <div class="footer-social-links mt-4">
+                 <div class="footer-social-links mt-3 mb-4">
                      <a href="https://www.instagram.com/unb_interio_official/" target="https://www.instagram.com/unb_interio_official/ " class="text-dark"><i class="fa fa-instagram c-2x"></i></a>
                      <a href="https://www.facebook.com/unbdesignstudio.design" target="https://www.facebook.com/unbdesignstudio.design" class="text-dark"><i class="fa fa-facebook-square c-2x"></i></a>
                      <a href="https://twitter.com/home" target="https://twitter.com/home" class="text-dark"><i class="fa fa-twitter c-2x"></i></a>
@@ -28,14 +28,14 @@
                      <a href="#" target="#" class="text-dark"><i class="fa fa-whatsapp c-2x"></i></a>
                  </div>
              </div>
-             <div class="col-md-3">
+             <div class="col-md-3 mb-4">
                  <p class="small-og ">CONTACT US</p>
                  <p class="footer-og "><b>CAll US :</b>  +918800242774</p>
                  <p class="footer-og "><b>EMAIL ID :</b> info@unbdesignstudio.com </p>
 
              </div>
 
-             <div class="col-md-12 mt-5">
+             <div class="col-md-12 mt-3">
                  <div class="text-center small-og">
                      <p>&copy; <?= date('Y'); ?> UNB Design Studio All Rights Reserved</p>
                      <p>Powered by Danish</p>
