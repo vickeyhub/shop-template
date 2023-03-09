@@ -16,7 +16,7 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="<?php echo base_url('assets/css/vertical-layout-light/style.css'); ?>">
   <!-- endinject -->
-  <link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.png'); ?>" />
+  <link rel="icon" type="image/x-icon" href="<?= base_url('assets/favicon/favicon.ico'); ?>">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
               <h6 class="font-weight-light">Sign in to continue.</h6>
               <form class="pt-3" action="<?= base_url('Login_controller/admin_login_action'); ?>" method="post">
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username" name="admin_username">
+                  <input type="text" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username" name="admin_username">
                   <?php echo form_error('admin_username'); ?>
                 </div>
                 <div class="form-group">

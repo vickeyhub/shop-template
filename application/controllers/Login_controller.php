@@ -5,7 +5,7 @@
         }
 
         public function admin_login_action(){
-            $this->form_validation->set_rules('admin_username', 'Username', 'required|valid_email');
+            $this->form_validation->set_rules('admin_username', 'Username', 'required');
             $this->form_validation->set_rules('admin_password', 'Password', 'required');
             $this->form_validation->set_error_delimiters('<small class="text-danger">', '</small>');
 

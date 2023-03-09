@@ -21,7 +21,7 @@
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/vertical-layout-light/style.css'); ?>">
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/main.css'); ?>">
 	<!-- endinject -->
-	<link rel="shortcut icon" href="<?php echo base_url('assets/images/favicon.png'); ?>" />
+	<link rel="icon" type="image/x-icon" href="<?= base_url('assets/favicon/favicon.ico'); ?>">
 </head>
 
 <body>

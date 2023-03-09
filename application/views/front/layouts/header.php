@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>UNB Design Studio</title>
-	<link rel="icon" type="image/x-icon" href="images/home/logo1.png">
+	<link rel="icon" type="image/x-icon" href="<?= base_url('assets/favicon/favicon.ico'); ?>">
 	<!-- icon link -->
 	<script src="https://kit.fontawesome.com/a49af7c9db.js" crossorigin="anonymous"></script>
 	<!-- bootstrap -->
